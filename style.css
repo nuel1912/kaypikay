@@ -410,14 +410,13 @@ form img {
     justify-content: space-between;
 }
 .remember a {
-    color: #5c1600;
+    color: #fff;
 }
 .remember a:hover {
+    color: #5c1600;
     font-weight: 600;
     text-decoration: underline;
 }
-
-
 
 
 
@@ -600,9 +599,4 @@ output .span--hidden{
     .input-box input, .input-box select, .input-box textarea {
         width: 100%;
     }
-    /* .remember {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
 }
