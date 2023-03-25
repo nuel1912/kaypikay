@@ -359,6 +359,68 @@ nav #bars {
 }
 
 
+/* Login Page */
+.login {
+    width: 100%;
+    max-width: 650px;
+    background: rgba(92,22,0,0.5);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.title {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.login-box {
+    background: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box input {
+    background: transparent;
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+}
+form img {
+    width: 40px;
+}
+.remember {
+    margin: 15px 0;
+    font-size: 15px;
+    color: #5c1600;
+    display: flex;
+    justify-content: space-between;
+}
+.remember label input {
+    margin-right: 3px;
+}
+.remember a {
+    color: #5c1600;
+}
+.remember a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
 /* Supposed CSS code for upload - It didn't work out well... */
 /* .preview{
     width: 100%;
@@ -538,4 +600,9 @@ output .span--hidden{
     .input-box input, .input-box select, .input-box textarea {
         width: 100%;
     }
+    /* .remember {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
 }
