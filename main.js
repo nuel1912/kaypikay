@@ -1,3 +1,4 @@
+// Navigation
 var navLinks = document.getElementById("navLinks");
 var bars = document.getElementById("bars");
 
@@ -12,6 +13,21 @@ bars.onclick = function () {
     }
 }
 
+// Password view
+let eyes = document.getElementById("eyes");
+let password = document.getElementById("pass");
+
+eyes.onclick = function(){
+    if (password.type == "password"){
+        password.type = "text";
+        eyes.src = "img/eye.png";
+    }else {
+        password.type = "password";
+        eyes.src = "img/eyes.png";
+    }
+}
+
+// Registration
 var move1 = document.getElementById("move1");
 var move2 = document.getElementById("move2");
 var move3 = document.getElementById("move3");
@@ -206,8 +222,6 @@ submit.onclick = function () {
 // }
 
 
-
-
 // Practice code for upload also...
 
 // function showPreview(event) {
@@ -227,8 +241,6 @@ submit.onclick = function () {
 //         preview2.style.display = "block";
 //     }
 // }
-
-
 
 
 // Supposed code for upload - I don't really know how to upload an image using javascript.
