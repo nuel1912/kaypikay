@@ -8,11 +8,9 @@
     line-height: 1.3;
     text-decoration: none;
 }
-
 body {
     background: linear-gradient(62deg, #FBAB7E, #F7CE68);
 }
-
 hr {
     margin: auto;
     width: 80%;
@@ -25,7 +23,7 @@ hr {
 .header {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(17,4,0,1)), url(img/Learn.jpg);
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(17,4,0,1)), url(img/Learn.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -34,7 +32,7 @@ hr {
 .sub-header {
     height: 50vh;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(17,4,0,1)), url(img/sub.jpg);
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(17,4,0,1)), url(img/sub.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -311,7 +309,7 @@ nav #bars {
     margin: 30px;
     border-radius: 10px;
 }
-#move2, #move3 {
+#move1, #move2 {
     display: none;
 }
 .title {
@@ -355,6 +353,38 @@ nav #bars {
     background: transparent;
     border-radius: 5px;
     outline: none;
+    cursor: pointer;
+}
+.center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-input {
+    width: 350px;
+    padding: 20px;
+    background: #fff;
+}
+.form-input img {
+    width: 100%;
+    display: none;
+    margin-bottom: 30px;
+}
+.form-input input {
+    display: none;
+}
+.form-input label {
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #5c1600;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
     cursor: pointer;
 }
 
