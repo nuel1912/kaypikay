@@ -1,12 +1,11 @@
 function showPreview(event){
     if(event.target.files.length > 0){
       var src = URL.createObjectURL(event.target.files[0]);
-      var prev = document.getElementById("fileprev");
-      prev.src = src;
-      prev.style.display = "block";
+      var preview = document.getElementById("file-ip-1-preview");
+      preview.src = src;
+      preview.style.display = "block";
     }
 }
-
 // Registration
 var move1 = document.getElementById("move1");
 var move2 = document.getElementById("move2");
