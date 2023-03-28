@@ -10,6 +10,10 @@
 }
 body {
     background: linear-gradient(62deg, #FBAB7E, #F7CE68);
+    /* overflow: auto; */
+}
+body::-webkit-scrollbar {
+    width: 0;
 }
 hr {
     margin: auto;
@@ -47,6 +51,9 @@ hr {
     text-align: center;
     margin-top: 60px;
     font-size: 40px;
+}
+.sub-header h1 span {
+    font-size: 30px;
 }
 
 
