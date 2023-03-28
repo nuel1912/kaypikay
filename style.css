@@ -431,7 +431,8 @@ form img#eyes {
     font-size: 14px;
     color: #5c1600;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .remember a {
     color: #fff;
@@ -439,48 +440,9 @@ form img#eyes {
 .remember a:hover {
     color: #5c1600;
     font-weight: 600;
+    transition: 0.3s;
     text-decoration: underline;
 }
-
-
-
-/* Supposed CSS code for upload - It didn't work out well... */
-/* .preview{
-    width: 100%;
-    min-height: 150px;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 15px;
-    position: relative;
-    border-radius: 5px;
-}
-.preview .image{
-    height: 150px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
-    position: relative;
-}
-.preview .image img{
-    height: 100%;
-    width: 100%;
-}
-.preview .image span {
-    position: absolute;
-    top: -4px;
-    right: 4px;
-    cursor: pointer;
-    font-size: 22px;
-    color: white;
-}
-.preview .image span:hover {
-    opacity: 0.8;
-}
-output .span--hidden{
-    visibility: hidden;
-} */
-  
 
 
 /* Contact Us Page */
