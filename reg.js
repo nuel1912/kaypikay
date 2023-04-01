@@ -43,6 +43,7 @@ var degree = document.getElementById("degree");
 var course = document.getElementById("course");
 var pri = document.getElementById("pri");
 var sec = document.getElementById("sec");
+var upload = document.getElementById("file-ip-1");
 
 
 next1.onclick = function() {
@@ -182,8 +183,15 @@ submit.onclick = function () {
         sec.focus();
         return false;
     }
+    else if (upload.value == "") {
+        window.alert("Please your WAEC result...");
+        upload.focus();
+        return false;
+    }
     else {
-        move2.style.display = "block";
+        move1.style.display = "block";
+        move2.style.display = "none";
+        move3.style.display = "none";
         window.alert('Successful');
         return true;
     }
