@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION['email']))
+{
+header('location:login.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,11 +24,11 @@
             <img src="img/bars.png" id="bars" alt="menu">
             <div class="nav-links" id="navLinks">
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="abt.html">ABOUT</a></li>
-                    <li><a href="reg.html">REGISTRATION</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="login.html" class="log">LOGIN</a></li>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="abt.php">ABOUT</a></li>
+                    <li><a href="reg.php">REGISTRATION</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="login.php" class="log">LOGIN</a></li>
                 </ul>
             </div>
         </nav>
@@ -87,7 +94,7 @@
                 </div>
             </div>
             <div class="faculty-col">
-                <img src="img/edu.jpg" alt="">
+                <img src="img/education.jpg" alt="">
                 <div class="layer">
                     <h3>EDUCATION</h3>
                 </div>
